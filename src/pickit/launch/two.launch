@@ -1,0 +1,5 @@
+<launch>
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" args="-d $(find pickit)/rviz/two.rviz"/>
+    <node name="controller_node" pkg="pickit" type="two_run.py" output="screen" />
+    <node name="pickit_node" pkg="pickit" type="pcl_node" output="screen" />
+</launch>
