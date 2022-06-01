@@ -9,5 +9,6 @@
 ## How To Run
   1. Running
      ```bash
-     >>> roslaunch pickit_qt pickit_assignment.launch
+     >>> roslaunch pickit one.launch
+     >>> roslaunch pickit two.launch
      ```
